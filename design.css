@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+  font-family: Poppins;
+}
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #edffbc;
+}
+.card {
+  background: rgb(223, 223, 223);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background: rgba(255, 255, 255, 0.17);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+}
+.card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+
+}
+.card__message h2 {
+  font-size: 20px;
+  color: #22215B;
+  font-weight: 500;
+  margin-bottom: 5px;
+  /* alihasan */ 
+}
+.card__message p {
+  font-size: 18px;
+  color: rgba(34, 33, 91, 0.6);
+}
