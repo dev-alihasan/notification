@@ -1,0 +1,11 @@
+    <div class="card">
+        <div class="card__icon">
+         <img src="https://images.pexels.com/videos/5137868/arab-asian-background-beautiful-5137868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="60px"
+              >
+      
+        </div>
+        <div class="card__message">
+          <h2>My Wife</h2>
+          <p>hi honney.come home i m waiting...</p>
+        </div>
+      </div>
